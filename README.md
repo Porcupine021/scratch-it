@@ -15,7 +15,7 @@ ScratchIt( containerEl, overlayImgUrl, brushImgUrl, onReveal, revealPercent );
 |onReveal   |Optional   |A user defined callback function that is executed after some percentage of the overlay image has been scratched off. *Default: none.*   |
 |revealPercent   |Optional   |The percentage of the overlay image that must be scratched off before the onReveal handler is called. Must be a number between 0 and 100. *Default: 50*   |
 
-##Testing For Support
+## Testing For Support
 The library comes with a simple `isSupported()` method for testing whether the browser supports the browser technologies necessary to function.
 
 ```javascript
