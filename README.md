@@ -1,8 +1,8 @@
-#scratch-it
+# scratch-it
 A light weight javascript library for simulating a scratch off lottery ticket.  It works on mobile and is responsive.
 
-##Usage
-A new ScratchIt instance my be instantiated with:
+## Usage
+A new ScratchIt instance may be instantiated with:
 
 ```javascript
 ScratchIt( containerEl, overlayImgUrl, brushImgUrl, onReveal, revealPercent );
@@ -24,7 +24,7 @@ if(ScratchIt.isSupported()){
 }
 ```
 
-##Example Code
+## Example Code
 ```html
 <div id="scratch"><img src="hiddenMessage.jpg" /></div>
 
@@ -45,10 +45,10 @@ if(ScratchIt.isSupported()){
 </script>
 ```
 
-##Demo
+## Demo
 Visit the Demo Page to see this library in action.
 
-##Browser Support
+## Browser Support
 This library has been tested to work with:
 - Chrome
 - Safari
@@ -60,5 +60,5 @@ This library has been tested to work with:
 
 Other browsers may be supported as well, but have not been tested. This library requires the browser to support HTML5 Canvas and RequestAnimationFrame
 
-##Caveats
+## Caveats
 If your image assets are hosted on another domain (like a CDN), this host will need to have CORS enabled.  CORS is required so that HTML5 canvas may have permission to read the contents of an image from an outside domain.  Please note that Internet Explorer 9 does not have the ability to properly fetch images this way and will not work with images hosted on another domain.
