@@ -55,8 +55,9 @@ This library has been tested to work with:
 - Firefox
 - Internet Explorer 9+
 - Edge 16+
-- Android 6+
-- iOS 8+
+- Opera 51+
+- Android 4.4, 6.0, 7.0, 8.0
+- iOS 10+
 
 Other browsers may be supported as well, but have not been tested. This library requires the browser to support HTML5 Canvas and RequestAnimationFrame
 
