@@ -46,7 +46,7 @@ if(ScratchIt.isSupported()){
 ```
 
 ## Demo
-Visit the Demo Page to see this library in action.
+Visit the [Demo Page](https://porcupine021.github.io/scratch-it/demo/) to see this library in action.
 
 ## Browser Support
 This library has been tested to work with:
