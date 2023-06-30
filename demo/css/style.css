@@ -3,9 +3,11 @@ html, body {
   padding: 0;
   min-height: 100%;
   min-height: 100vh;
+  background-color: #00000(
 }
 body {
   text-align: center;
+  background-color:#00000;
 }
 img {
   -ms-interpolation-mode: bicubic;
